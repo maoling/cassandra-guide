@@ -31,13 +31,25 @@
       </plugin>
     </plugins>
   </build>
-  
+  <!--https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core/3.2.0-->
   <dependencies>
-  	<dependency>
-  		<groupId>com.datastax.cassandra</groupId>
-  		<artifactId>cassandra-driver-core</artifactId>
-  		<version>3.2.0</version>
-  	</dependency>
+	  <dependency>
+		  <groupId>org.apache.cassandra</groupId>
+		  <artifactId>java-driver-core</artifactId>
+		  <version>4.19.0</version>
+	  </dependency>
+
+	  <dependency>
+		  <groupId>org.apache.cassandra</groupId>
+		  <artifactId>cassandra-driver-core</artifactId>
+		  <version>3.12.1</version>
+	  </dependency>
+
+<!--  	<dependency>-->
+<!--  		<groupId>com.datastax.cassandra</groupId>-->
+<!--  		<artifactId>cassandra-driver-core</artifactId>-->
+<!--  		<version>3.2.0</version>-->
+<!--  	</dependency>-->
   	<dependency>
   		<groupId>ch.qos.logback</groupId>
   		<artifactId>logback-classic</artifactId>
